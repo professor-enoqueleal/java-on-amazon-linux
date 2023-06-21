@@ -20,3 +20,9 @@ readlink -f $(which java)
 export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto.x86_64
 export PATH=$JAVA_HOME/jre/bin:$PATH
 ```
+
+## STEP 4
+
+```bash
+chmod +x ./mvn clean package
+```
