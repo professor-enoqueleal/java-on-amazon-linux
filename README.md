@@ -24,5 +24,5 @@ export PATH=$JAVA_HOME/jre/bin:$PATH
 ## STEP 4
 
 ```bash
-chmod +x ./mvn clean package
+chmod +x ./mvnw clean package
 ```
